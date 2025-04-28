@@ -7,7 +7,7 @@
 :root {
     --verde-sena: #007B5E;
     --verde-hover: #00573D;
-    --gris-claro: #07e06d;
+    --verde: #07e06d;
     --blanco: #ffffff;
     --negro: #222222;
     --sombra: rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--gris-claro);
+    background-color: var(--verde);
     color: var(--negro);
     line-height: 1.6;
 }
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--gris-claro);
+    color: var(--verde);
 }
 
 section {
